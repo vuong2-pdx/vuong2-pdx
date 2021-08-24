@@ -46,7 +46,7 @@
 }
 
 #about{
-    background-image: url("files/bananas_edit.png");
+    /* background-image: url("files/bananas_edit.png"); */
     background-color: var(--white);
     color: var(--darkpurple);
 }
