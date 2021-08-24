@@ -24,7 +24,7 @@
   --gold: #ffcc00;
   --darkred: #993300;
   --lightyellow: #ffffcc;
-  --darkpurple: #3300CC;
+  --darkpurple: #3300cc;
 }
 
 .navbar {
@@ -45,10 +45,10 @@
   padding: 50px 50px;
 }
 
-#about{
-    background-image: url("../files/bananas_edit.png");
-    background-color: var(--white);
-    color: var(--darkpurple);
+#about {
+  background-image: url("../files/bananas_edit.png");
+  background-color: var(--white);
+  color: var(--darkpurple);
 }
 
 p::first-line {
