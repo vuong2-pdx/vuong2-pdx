@@ -23,8 +23,9 @@
   /* my own colors added below */
   --gold: #ffcc00;
   --darkred: #993300;
-  --lightyellow: #ffffcc;
-  --darkpurple: #3300cc;
+  --lightyellow: #ffffcf;
+  /* --darkpurple: #3300cc; */
+  --darkpurple: #6633FF;
 }
 
 .navbar {
@@ -34,28 +35,56 @@
 
 .nav-link,
 .nav-link:hover,
-.nav-link:visited,
 .nav-link:focus {
   color: var(--white);
 }
 
-.container {
+.nav-link:visited {
+  color: lightyellow;
+}
+
+.container-fluid {
   margin: 0 auto;
   text-align: center;
-  padding: 50px 50px;
+  padding: 30px 30px;
+  font-size: 1.3em;
+  color: var(--darkpurple);
+}
+
+.row {
+  align-items: center;
+  justify-content: center;
+  padding: 5px 5px 5px 5px;
 }
 
 #about {
   background-image: url("./files/bananas_edit.png");
   background-color: var(--white);
-  color: var(--darkpurple);
+  padding: 50px 50px;
 }
 
-p::first-line {
+#about p::first-line {
   font-size: 150%;
-  font-weight: bold;
+  font-weight: 600;
 }
 
+#previouswork {
+  background-color: var(--darkpurple);
+  color: var(--white);
+}
+
+#previousworkitems {
+  border-radius: 5px;
+  border: 2px solid var(--white);
+  padding: 20px;
+  text-align: left;
+}
+
+i {
+  font-size: 1.4rem;
+  color: var(--white);
+  padding: 10px;
+}
 img {
   border-radius: 130px;
 }
