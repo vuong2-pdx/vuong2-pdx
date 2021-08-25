@@ -1,6 +1,8 @@
 ## Welcome to my website 😄
 
 This website serves as my portfolio. It was created for my Front End Web Development class at Portland State University.
+
+
 **PLEASE NOTE***: the link to visit Frupal under "Projects" will appear broken, but it is the right link. It appears broken because the repo is set to private (due to the project being a group project with 4 others). I am checking with my old groupmates to see if I could make the repo public or else just fork it into my own repo.
 
 ### Stack used
