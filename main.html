@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tram Vuong</title>
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
     />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
@@ -32,7 +35,7 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#previouswork">Previous Work</a>
+              <a class="nav-link" href="#previous-work">Previous Work</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projects">Projects</a>
@@ -48,7 +51,6 @@
     <div class="container-fluid" id="about">
       <div class="container">
         <div class="row">
-          <!-- check on css for this -->
           <div class="col-lg-4 col-md-6 col-sm-12">
             <img
               class="img-fluid"
@@ -74,14 +76,14 @@
       </div>
     </div>
 
-    <div class="container-fluid" id="previouswork">
+    <div class="container-fluid" id="previous-work">
       <div class="row">
         <div>
-          <h4>Previous work</h4>
+          <h2>Previous work</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6 col-md-8 col-sm-8" id="previousworkitems">
+        <div class="col-lg-6 col-md-8 col-sm-8" id="previouswork-item">
           <i
             class="bi-code"
             role="img"
@@ -92,7 +94,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6 col-md-8 col-sm-8" id="previousworkitems">
+        <div class="col-lg-6 col-md-8 col-sm-8" id="previouswork-item">
           <i
             class="bi-cloud"
             role="img"
@@ -103,20 +105,162 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6 col-md-8 col-sm-8" id="previousworkitems">
+        <div class="col-lg-6 col-md-8 col-sm-8" id="previouswork-item">
           <i
             class="bi-briefcase"
             role="img"
             alt="briefcase icon"
             aria-label="briefcase"
           ></i>
-          Senior Consultant in Cyber Risk Services @ Deloitte & Touche, a Big 4 international accounting and consulting firm
+          Senior Consultant in Cyber Risk Services @ Deloitte & Touche, a Big 4
+          international accounting and consulting firm
         </div>
       </div>
     </div>
 
-    <!-- This section should include 2-3 projects you havepreviouslyworked on. These can be projects that you have createdin otherclasses. If you have more than three projects youwant to highlight,please highlight all of them.❏The projects should include a name, description, andlink to theGitHub repository and/or the deployed site. -->
-    <div class="container-fluid" id="projects"></div>
+    <div class="container-fluid" id="projects">
+      <div class="row">
+        <div>
+          <h2>Projects</h2>
+        </div>
+      </div>
+      <section class="flex-container">
+        <div class="row">
+          <div class="col">
+            <div class="flex-item align-items-stretch item1">
+              <div class="icon-square bg-light">
+                <i
+                  class="bi-laptop"
+                  role="img"
+                  alt="laptop icon"
+                  aria-label="laptop"
+                ></i>
+              </div>
+              <div>
+                <h2>xv6 operating system</h2>
+                <p>
+                  Implemented the following changes to the xv6 operating system
+                  using C:
+                </p>
+                <ul class="projects-list">
+                  <li class="projects-list-item">
+                    new system calls and user commands
+                  </li>
+                  <li class="projects-list-item">simple process scheduling</li>
+                  <li class="projects-list-item">concurrency control</li>
+                  <li class="projects-list-item">
+                    mlfq (multilevel feedback queue) scheduling
+                  </li>
+                </ul>
+                <a href="https://github.com/vuong2-pdx/cs333-xv6"
+                  ><button class="button">view cs333-xv6</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="flex-item align-items-stretch item2">
+              <div class="icon-square bg-light">
+                <i
+                  class="bi-laptop"
+                  role="img"
+                  alt="laptop icon"
+                  aria-label="laptop"
+                ></i>
+              </div>
+              <div>
+                <h2>EverPlains 2D platformer</h2>
+                <p>
+                  Created a 2D platform game in Unity, which uses C#. The
+                  project has the following characteristics:
+                </p>
+                <ul class="projects-list">
+                  <li class="projects-list-item">open source</li>
+                  <li class="projects-list-item">single-player</li>
+                  <li class="projects-list-item">two enemy types</li>
+                  <li class="projects-list-item">
+                    attack, block, and special attack
+                  </li>
+                </ul>
+                <a href="https://github.com/EverPlainsGroup/EverPlains"
+                  ><button class="button">view EverPlains</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="flex-item item3">3</div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- <div class="container-fluid" id="projects">
+      <div class="row">
+        <div>
+          <h2>Projects</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4" id="projects-item">
+          <div class="icon-square bg-light">
+            <i
+              class="bi-laptop"
+              role="img"
+              alt="laptop icon"
+              aria-label="laptop"
+            ></i>
+          </div>
+          <div>
+            <h2>xv6 operating system</h2>
+            <p>
+              Designed and implemented the following changes to the xv6
+              operating system using C:
+            </p>
+            <ul class="projects-list">
+              <li class="projects-list-item">
+                new system calls and user commands
+              </li>
+              <li class="projects-list-item">simple process scheduling</li>
+              <li class="projects-list-item">concurrency control</li>
+              <li class="projects-list-item">
+                mlfq (multilevel feedback queue) scheduling
+              </li>
+            </ul>
+            <a href="https://github.com/vuong2-pdx/cs333-xv6"
+              ><button class="button">view cs333-xv6</button></a
+            >
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4" id="projects-item">
+          <div class="icon-square bg-light">
+            <i
+              class="bi-laptop"
+              role="img"
+              alt="laptop icon"
+              aria-label="laptop"
+            ></i>
+          </div>
+          <div>
+            <h2>EverPlains 2D platformer</h2>
+            <p>
+              Created a 2D platform game in Unity, which uses C#. The project
+              has the following characteristics:
+            </p>
+            <ul class="projects-list">
+              <li class="projects-list-item">open source</li>
+              <li class="projects-list-item">single-player</li>
+              <li class="projects-list-item">two enemy types</li>
+              <li class="projects-list-item">
+                attack, block, and special attack
+              </li>
+            </ul>
+            <a href="https://github.com/vuong2-pdx/cs333-xv6"
+              ><button class="button">view EverPlains</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div> -->
 
     <!-- This section should include a contact form.❏Note: It is not necessary that you implement the functionalityofform submission. -->
     <div class="container-fluid" id="contact"></div>
