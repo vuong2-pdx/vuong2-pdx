@@ -1,16 +1,20 @@
-### Hi there 👋
+## Welcome to my website 😄
 
-<!--
-**vuong2-pdx/vuong2-pdx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This website serves as my portfolio. It was created for my Front End Web Development class at Portland State University.
 
-Here are some ideas to get you started:
+### Stack used
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I used HTML, CSS, Bootstrap, and JavaScript.
+
+### Design
+
+I was inspired by Rachel Andrew's [website](https://rachelandrew.co.uk/). I wanted something bold as well, so I went with a bright, modern theme that is still easy to read. Somewhere along the way I found a tiled background image of bananas with a cheerful shade of yellow, so I incorporated that in as well.
+
+### Running the code
+
+Clone the repository, then run it using Live Server or open it up in your browser.
+Currently, the form submission is not working but it will be implemented in the future.
+
+### Where the site is deployed
+
+You can checkout the site here: [https://vuong2-pdx.github.io/main](https://vuong2-pdx.github.io/main)

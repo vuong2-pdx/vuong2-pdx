@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  margin: 0;
 }
 
 :root {
@@ -11,18 +10,6 @@
   --gray4: #fcfafa;
 
   --black: #080808;
-  --teal: #006060;
-  --lightteal: #008080;
-  --purple: #800080;
-  --navy: #000080;
-  --cyan: #17a2b8;
-  --violetred: #c71585;
-  --red: #ff0000;
-  --orange: #ffa500;
-  --green: #006400;
-  /* my own colors added below */
-  --gold: #ffcc00;
-  --darkred: #993300;
   --lightyellow: #ffffcf;
   --darkyellow: #ffe786de;
   --darkpurple: #6633ff;
@@ -119,16 +106,8 @@ ul {
   background-color: var(--gray4);
 }
 
-/* #projects-item {
-  border-radius: 10px;
-  border: 2px solid var(--darkpurple);
-  padding: 20px;
-  text-align: left;
-  width: 400%;
-  height: 100%;
-} */
-
-.button, .button-secondary{
+.button,
+.button-secondary {
   border: none;
   color: var(--white);
   padding: 5px 10px;
@@ -143,7 +122,7 @@ ul {
   background-color: var(--darkpurple);
 }
 
-.button-secondary{
+.button-secondary {
   background-color: var(--gray2);
 }
 
@@ -153,8 +132,8 @@ ul {
   font-size: 0.95rem;
   width: auto;
   height: auto;
-  min-width: 400px;
-  min-height: 400px;
+  min-width: 360px;
+  min-height: 360px;
   margin: 5px;
   overflow: hidden;
   border-radius: 10px;
