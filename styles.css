@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  /* margin: 0; */
+  margin: 0;
 }
 
 :root {
@@ -46,6 +46,7 @@
 .container-fluid {
   margin: 0 auto;
   text-align: center;
+
   padding: 30px 30px;
   font-size: 1.3em;
   color: var(--darkpurple);
@@ -58,7 +59,8 @@
   padding: 5px 5px 5px 5px;
 }
 
-#about {
+#about,
+#contact {
   background-image: url("./files/bananas_edit.png");
   padding: 50px 50px;
 }
@@ -126,11 +128,10 @@ ul {
   height: 100%;
 } */
 
-.button {
-  background-color: var(--darkpurple);
+.button, .button-secondary{
   border: none;
   color: var(--white);
-  padding: 10px 30px;
+  padding: 5px 10px;
   text-align: center;
   margin: 4px 2px;
   display: inline-block;
@@ -138,14 +139,20 @@ ul {
   border-radius: 5px;
 }
 
-form {
-  width: 400px;
+.button {
+  background-color: var(--darkpurple);
+}
+
+.button-secondary{
+  background-color: var(--gray2);
 }
 
 .flex-item {
   color: var(--darkpurple);
   text-align: center;
   font-size: 0.95rem;
+  width: auto;
+  height: auto;
   min-width: 400px;
   min-height: 400px;
   margin: 5px;

@@ -153,7 +153,7 @@
                   </li>
                 </ul>
                 <a href="https://github.com/vuong2-pdx/cs333-xv6"
-                  ><button class="button">view cs333-xv6</button></a
+                  ><button class="button">visit cs333-xv6</button></a
                 >
               </div>
             </div>
@@ -162,10 +162,10 @@
             <div class="flex-item align-items-stretch item2">
               <div class="icon-square bg-light">
                 <i
-                  class="bi-laptop"
+                  class="bi-controller"
                   role="img"
-                  alt="laptop icon"
-                  aria-label="laptop"
+                  alt="game controller icon"
+                  aria-label="controller"
                 ></i>
               </div>
               <div>
@@ -183,86 +183,78 @@
                   </li>
                 </ul>
                 <a href="https://github.com/EverPlainsGroup/EverPlains"
-                  ><button class="button">view EverPlains</button></a
+                  ><button class="button">visit EverPlains</button></a
                 >
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="flex-item item3">3</div>
+            <div class="flex-item align-items-stretch item3">
+              <div class="icon-square bg-light">
+                <i
+                  class="bi-laptop"
+                  role="img"
+                  alt="laptop icon"
+                  aria-label="laptop"
+                ></i>
+              </div>
+              <div>
+                <h2>Kingdom of Frupal</h2>
+                <p>
+                  Created Frupal, a text-based adventure game, using C++. The game has the following characteristics:
+                </p>
+                <ul class="projects-list">
+                  <li class="projects-list-item">single-player treasure hunt</li>
+                  <li class="projects-list-item">player encounters obstacles</li>
+                  <li class="projects-list-item">player can pick up food</li>
+                  <li class="projects-list-item">
+                    energy system
+                  </li>
+                </ul>
+                <a href="https://github.com/vuong2-pdx/CS300-FRUPAL-Group-3"
+                  ><button class="button">visit Frupal</button></a
+                >
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </section>
     </div>
-    <!-- <div class="container-fluid" id="projects">
-      <div class="row">
-        <div>
-          <h2>Projects</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-4" id="projects-item">
-          <div class="icon-square bg-light">
-            <i
-              class="bi-laptop"
-              role="img"
-              alt="laptop icon"
-              aria-label="laptop"
-            ></i>
-          </div>
-          <div>
-            <h2>xv6 operating system</h2>
-            <p>
-              Designed and implemented the following changes to the xv6
-              operating system using C:
-            </p>
-            <ul class="projects-list">
-              <li class="projects-list-item">
-                new system calls and user commands
-              </li>
-              <li class="projects-list-item">simple process scheduling</li>
-              <li class="projects-list-item">concurrency control</li>
-              <li class="projects-list-item">
-                mlfq (multilevel feedback queue) scheduling
-              </li>
-            </ul>
-            <a href="https://github.com/vuong2-pdx/cs333-xv6"
-              ><button class="button">view cs333-xv6</button></a
-            >
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4" id="projects-item">
-          <div class="icon-square bg-light">
-            <i
-              class="bi-laptop"
-              role="img"
-              alt="laptop icon"
-              aria-label="laptop"
-            ></i>
-          </div>
-          <div>
-            <h2>EverPlains 2D platformer</h2>
-            <p>
-              Created a 2D platform game in Unity, which uses C#. The project
-              has the following characteristics:
-            </p>
-            <ul class="projects-list">
-              <li class="projects-list-item">open source</li>
-              <li class="projects-list-item">single-player</li>
-              <li class="projects-list-item">two enemy types</li>
-              <li class="projects-list-item">
-                attack, block, and special attack
-              </li>
-            </ul>
-            <a href="https://github.com/vuong2-pdx/cs333-xv6"
-              ><button class="button">view EverPlains</button></a
-            >
-          </div>
-        </div>
-      </div>
-    </div> -->
 
-    <!-- This section should include a contact form.❏Note: It is not necessary that you implement the functionalityofform submission. -->
-    <div class="container-fluid" id="contact"></div>
+    <div class="divider"></div>
+
+    <div class="container-fluid" id="contact">
+      <div class="form-title"><h2>Contact form</h2></div>
+    <div class="row">
+      <div class="col-lg-4" id="form-container">
+      <form class="form">
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com"/>
+        </div>
+        <div class="form-group">
+          <label for="message">Your message</label>
+          <textarea class="form-control" id="message" rows="5"></textarea>
+        </div>
+        <div>
+          <input
+            type="submit"
+            name="submit"
+            value="Submit"
+            class="button"
+          />
+          <input
+            type="reset"
+            name="reset"
+            value="Reset"
+            class="button-secondary"
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
   </body>
 </html>
