@@ -2,35 +2,32 @@ let form = document.querySelector("form");
 form.addEventListener("submit", handleSubmit);
 
 function handleSubmit(event) {
-    
-  let username = document.querySelector("#name");
-  let email = document.querySelector("#email");
-  let newsletter_choice = document.getElementsByName("newsletter");
-  let date = document.querySelector("#date");
 
-  if (username.value == "" || email.value == "") {
-    console.warn("You must enter some date to submit this form");
+  let name = document.querySelector("#name");
+  let email = document.querySelector("#email");
+  let message = document.querySelector("#message");
+
+  if (name.value === "" || email.value === "" || message.value === "") {
+    console.warn("You must enter all values to submit this form");
   } else {
     console.log("========= Form Submission =========");
-    console.log("\tUsername: ", username.value);
     console.log("\tEmail: ", email.value);
-    let newsletter_entered = false;
+    console.log("\tMessage: ", message.value);
 
-    for (var i = 0; i < newsletter_choice.length; ++i) {
-      if (newsletter_choice[i].checked) {
-        console.log("\tNewsletter: ", newsletter_choice[i].value);
-        newsletter_entered = true;
-      }
-    }
-
-    if (!newsletter_entered) {
-      console.log("\tNewsletter: no submission");
-    }
-
-    if (date.value == "") {
-      console.log("\tDate: no submission");
+    if (name.value == "") {
+      console.log("\tName: no submission");
     } else {
-      console.log("\tDate: ", date.value);
+      console.log("\tName: ", name.value);
+    }
+    if (email.value == "") {
+        console.log("\tEmail: no submission");
+      } else {
+        console.log("\tEmail: ", email.value);
+    }
+    if (message.value == "") {
+        console.log("\tMessage: no submission");
+      } else {
+        console.log("\tMessage: ", message.value);
     }
   }
 }
